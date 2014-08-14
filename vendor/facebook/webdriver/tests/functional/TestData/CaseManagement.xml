@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestData>
+    <Iteration1>
+
+        <enterCaseNameEditBox>DennisTest1</enterCaseNameEditBox>
+        <enterTextValueA>This is a test of campo1@!%^_+-?>'";'{}[]%</enterTextValueA>
+        <enterTextValueB>This is a test of campo2@!%^_+-?>'";'{}[]%</enterTextValueB>
+        <CollaboratorValueTextFieldA>8082</CollaboratorValueTextFieldA>
+        <CollaboratorValueTextFieldA>8082</CollaboratorValueTextFieldA>
+        <errormsgAcceptTerms>You must accept the terms</errormsgAcceptTerms>
+        <enterTxtfValue>Test the TxtF Field</enterTxtfValue>
+        <enterTxtfalpmandValue>Test the TxtFalpMand Field</enterTxtfalpmandValue>
+        <shareCaseEnterValue>Dont Know What goes here</shareCaseEnterValue>
+        <enterTextWorkflowStatusCommentTextBox>Testing Workflow Status Comment Text Box !@#$%^()+=?._{[}]</enterTextWorkflowStatusCommentTextBox>
+
+    </Iteration1>
+    <!-- <Iteration2>
+         <userName>testadminselenium</userName>
+         <password>medting2012</password>
+     </Iteration2>
+     <Iteration3>
+         <userName>testadminselenium</userName>
+         <password>medting2012</password>
+     </Iteration3>-->
+</TestData>

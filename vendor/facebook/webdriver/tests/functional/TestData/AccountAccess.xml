@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestData>
+    <Iteration1>
+        <urlNameCurrent>http://asbmt.qa.medting.com/login</urlNameCurrent>
+        <userName>ddefilippo</userName>
+        <password>Medting2014!</password>
+        <regUseasbmt>qaautomationmedting</regUseasbmt>
+        <regpasswordasbmt>!Aug2014</regpasswordasbmt>
+        <regUser>qaautomation</regUser>
+        <regPassword>Welcome1</regPassword>
+        <regUserPassword>!Welcome1</regUserPassword>
+        <regFistName>Qa</regFistName>
+        <regLastName>Automation</regLastName>
+        <regGender>Male</regGender>
+        <emailAddressExistingUser>bestdoctorsqa@gmail.com</emailAddressExistingUser>
+        <regPasswordConfirmation>Welcome1</regPasswordConfirmation>
+        <messageCongradulations>CongratulationsYour account has been created successfully.An admin will activate your account as soon as possible.</messageCongradulations>
+
+    </Iteration1>
+    <!-- <Iteration2>
+         <userName>testadminselenium</userName>
+         <password>medting2012</password>
+     </Iteration2>
+     <Iteration3>
+         <userName>testadminselenium</userName>
+         <password>medting2012</password>
+     </Iteration3>-->
+</TestData>

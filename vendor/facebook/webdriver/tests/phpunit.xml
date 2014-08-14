@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- http://www.phpunit.de/manual/current/en/appendixes.configuration.html -->
+<phpunit
+        backupGlobals               = "false"
+        backupStaticAttributes      = "false"
+        colors                      = "true"
+        convertErrorsToExceptions   = "true"
+        convertNoticesToExceptions  = "true"
+        convertWarningsToExceptions = "true"
+        processIsolation            = "false"
+        stopOnFailure               = "false"
+        syntaxCheck                 = "false"
+        bootstrap                   = "bootstrap.php" >
+    <php>
+        <env name="SELENIUM_CLIENT_BROWSER" value="chrome" />
+        <env name="SELENIUM_CLIENT_URL" value="http://asbmt.qa.medting.com/login" />
+        <env name="results" value="C:\\Reports"/>
+        <env name ="Images" value ="C:\\Reports\\Images"/>
+        <env name ="BuildVersion" value ="1.1"/>
+        <env name ="RunID" value ="0"/>
+        <env name="RerunTimes" value="1"/>
+        <env name="requireVideo" value="false"/>
+    </php>
+    <testsuites>
+       <!-- <testsuite name="Facebook PHP-Webdriver Unit Testsuite">
+            <directory>./unit</directory>
+        </testsuite>-->
+        <testsuite name="Mallorca Medting Regression Test Suite">
+            <directory>./functional</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log title="PHP-SeleniumClient" highLowerBound="70" lowUpperBound="35" highlight="true" yui="true"
+             charset="UTF-8" target="../build/coverage" type="coverage-html" />
+        <log target="../build/logs/clover.xml" type="coverage-clover" />
+        <!-- https://github.com/sebastianbergmann/php-jenkins-template/issues/22 -->
+        <log target="../build/logs/junit.xml" type="junit" logIncompleteSkipped="false" />
+    </logging>
+</phpunit>

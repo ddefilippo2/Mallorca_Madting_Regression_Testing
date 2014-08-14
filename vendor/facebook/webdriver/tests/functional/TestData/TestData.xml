@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestData>
+    <Iteration1>
+     <userName>testadminselenium</userName>
+     <password>medting2012</password>
+    </Iteration1>
+   <!-- <Iteration2>
+        <userName>testadminselenium</userName>
+        <password>medting2012</password>
+    </Iteration2>
+    <Iteration3>
+        <userName>testadminselenium</userName>
+        <password>medting2012</password>
+    </Iteration3>-->
+</TestData>
